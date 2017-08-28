@@ -1,0 +1,541 @@
+   body{
+       background: #ebebeb;
+   }
+                /* HEADER - START*/
+.header{
+    width: 942px;
+    padding: 0px 297px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #373737;
+}
+.qube{
+   display: flex;
+   justify-content: center;
+    height: 64px;
+    width: 80px;
+    background: #f26c4f;
+    
+}
+
+.qube>p{
+    font: 36pt NexaHeavy bold;
+    color: #fafcfc;
+    margin: 0px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 20.8px;
+    border-color: transparent transparent transparent #f26c4f;
+    }
+    .Goodinc>p{
+        font: 18pt NexaRegular;
+        color: #fafcfc;
+        padding: 0px 12px;
+        margin: 0px;
+    }
+                         /* HEADER - END*/
+
+
+                        /*NAVIGATION*/
+
+    .nav{
+        height: 70px;
+        width: 942px;
+        padding: 0px 297px;
+        background: #474747;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .nav>a{
+        font-size: 12pt;
+        font-family:  Arial;
+        color: #fff;
+        text-decoration: none;
+        margin: 27px 20px;
+        display: flex;
+        justify-content: center
+    }
+    .nav>a:hover{
+        border-bottom: 4px solid #f26c4f;
+        padding-bottom: 39px;
+    }
+    .nav>p{
+        font-size: 12pt;
+        font-family:  Arial;
+        color: #fff;
+        margin: 27px 20px;
+    }
+                /*NAVIGATION-END*/
+
+    .search{
+        height: 70px;
+        width: 942px;
+        padding: 0px 297px;
+        display: flex;
+        justify-content: flex-start;
+        background: #ebebeb;
+    }
+    .pointer{
+        font-size: 12pt;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 230px;
+        
+    }
+    .pointer>div{
+        width: 75px;
+        margin: 27px 20px;
+    }
+    .holder{
+        width: 299px;
+              
+        display: flex;
+        justify-content: center;
+    }
+    .holder>div{
+        background: #FFF;
+    }
+    input{
+        outline: none;
+        border: 0px;
+        height: 45px;
+        width: 269px;
+        margin-top: 17px; 
+        padding: 0px;
+    }
+    .img-cl{
+        height: 45px;
+        width: 30px;
+        margin-top: 17px;
+    }
+    .img-cl > img{
+        padding-top: 11px;
+    }
+                    /*МОСТ*/
+
+    .feature{
+        height: 429px;
+        width: 942px;
+        padding: 0px 297px;
+        display: flex;
+        justify-content: space-around;
+        background: #ebebeb;
+    }
+    .bridg{
+        display: flex;
+        height: 429px;
+        width: 644px;
+        justify-content: flex-end; 
+
+    }
+    .bridg>div img{        
+    width: 630px;
+    height: 429px;
+
+    }
+    .line{
+        width: 10px;
+        background: #f26c4f;
+    }
+    .Good{
+        position: absolute;
+        margin: 0px;
+       height: 60px;
+       width: 360px;
+       background: #1b1b21;
+       color: #FFF;
+       font: 16pt Arial;
+       margin-top: 368px;
+    }
+    .t-house{
+        width: 302px;
+        height: 429px;
+        background: #373737;
+    }
+    .t-house>h3{
+        width: 300px;
+        line-height: 1.5;
+        word-spacing: 5px;
+        margin: 20px 0px;
+        padding: 0px 30px; 
+        color: white;       
+    }
+    .t-house>p{
+        margin: 0px;
+        padding: 0px 30px;
+        font-size: 12pt;
+        line-height: 1.5;
+        word-spacing: 5px;
+    }
+    .t-house>i{
+        margin: 0px;
+        padding: 10px 0px 0px 146px;
+        text-align: right;
+    }
+    .triangle1{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 13px 0 13px 26px;
+        border-color: transparent transparent transparent #f26c4f;
+        left: 945px;
+        top: 275px;
+    }
+
+
+
+    .pic{
+        height: 411px;
+        width: 942px;
+        padding: 0px 297px;
+        background:#ebebeb; 
+        display: flex;
+    }
+
+    .pic1{
+        width: 300px;
+        height: 378px;
+        margin: 14px 0px;
+    }
+    .pic1>div img{
+        width: 300px;
+        height: 244px;
+    }
+    .triangle2{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 78px 78px 0;
+        border-color: transparent #f26c4f transparent transparent;
+        left: 527px;
+    }
+    .pic-text{
+        background: #FFF;
+        padding-left: 30px;
+    }
+    .pic-text>h1{
+        margin: 0px;
+    }
+    
+    .pic2{
+        width: 300px;
+        height: 378px;
+        margin: 14px 20px;
+    }
+    .pic2>div img{
+        width: 300px;
+        height: 244px;
+    }
+    .triangle3{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 78px 78px 0;
+        border-color: transparent #f26c4f transparent transparent;
+        left: 847px;
+    }
+    .pic-text1{
+        background: #FFF;
+        padding-left: 30px;
+    }
+    .pic-text1>h1{
+        margin: 0px;
+    }
+    .pic3{
+        width: 300px;
+        height: 378px;
+        margin: 14px 0px;
+    }
+    .pic3>div img{
+        width: 300px;
+        height: 244px;
+    }
+    .triangle4{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 78px 78px 0;
+        border-color: transparent #f26c4f transparent transparent;
+        left: 1167px;
+    }
+    .pic-text2{
+        background: #FFF;
+        padding-left: 30px;
+    }
+    .pic-text2>h1{
+        margin: 0px;
+    }
+
+    .content{
+        width: 942px;
+        padding: 0px 297px;
+        background:#ebebeb;
+        display: flex;
+        margin-bottom: 120px;
+    }
+    .colom1{
+        width: 623px;
+    }
+    .row1{
+        height: 170px;
+        display: flex;
+        background: #FFF;
+    }
+    .empty1{
+        width: 5px;
+        height: 170px;
+        background: #f26c4f;
+    }
+    .row1_1{
+        padding-left:25px;
+    }
+    .row1_1>div h2{
+        color: #474747;
+    }
+    .com1{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .com1>a{
+        padding-right: 10px;
+    }
+    .tx1{
+        font: 12pt Arial;
+        color: #707070;
+        padding-top: 10px;
+    }
+    .row1:hover{
+        background: #f26c4f;
+    }
+    .row1_2{
+        height: 170px;
+        display: flex;
+        margin-top: 14px;
+        background: #FFF;
+    }
+    .row1_2:hover{
+        background: #f26c4f;
+    }
+    .row1_3{
+        height: 96px;
+        display: flex;
+        margin-top: 14px;
+        background: #FFF;
+    }
+    .empty2{
+        width: 5px;
+        height: 96px;
+        background: #f26c4f;
+    }
+    .row1_3:hover{
+        background: #f26c4f;
+    }
+    .row1_4{
+        height: 76px;
+        display: flex;
+        margin-top: 14px;
+        background: #FFF;
+    }
+    .empty3{
+        width: 5px;
+        height: 76px;
+        background: #f26c4f;
+    }
+    .row1_4>div h3{
+        color: #474747;
+    }
+    .row1_4:hover{
+        background: #f26c4f;
+    }
+    .row1_5{
+        height: 76px;
+        display: flex;
+        margin-top: 14px;
+        background: #FFF;
+    }
+    .empty3{
+        width: 5px;
+        height: 76px;
+        background: #f26c4f;
+    }
+    .row1_5>div h3{
+        color: #474747;
+    }
+    .row1_5:hover{
+        background: #f26c4f;
+    }
+    .row1_6{
+        padding: 0px 264px;
+    }
+    .row1_6>i{
+        padding: 0px 37px;
+    }
+    .row1_7{
+        margin-top: 14px;
+        background: #FFF;
+        padding: 10px 56px;
+        color: #474747;
+    }
+    .row1_7 i:first-line{
+        font-size: 14pt;
+        font-family: Arial, sans-serif;
+        color: red;
+    }
+    .row1_8{
+        padding: 15px;
+        border: 1px solid #dedede;
+    }
+    .row1_8>div{
+        float: right;
+    }
+    .row1_9{
+        background: #FFF;
+    }
+    .row1_9>div{
+        padding: 0px 60px;
+       
+    }
+    .row1_10{
+        padding: 0px 60px;
+        background: #FFF;
+    }
+
+
+    .colom2{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic4{
+        width: 300px;
+        height: 580px;
+        margin-left: 17px;
+        background: #373737;
+    }
+    .pic4>div img{
+        width: 300px;
+        height: 244px;
+    }
+    .triangle5{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 78px 78px 0;
+        border-color: transparent #f26c4f transparent transparent;
+        left: 1167px;
+    }
+    .pic-text3{
+       padding-left: 30px;
+       color: white;
+       line-height: 1.5;
+    }
+    .pic-text3>h1{
+        margin: 0px;
+    }
+    .tx2{
+        margin: 20px;
+        border-bottom: 2px solid #d9d9d9;
+        padding-bottom: 25px;
+    }
+    .tx2>a{
+        line-height: 1.5;
+    }
+    .tx3{
+        margin: 0px 20px;
+    }
+    .tx3>a{
+        line-height: 1.5;
+    }
+    .Blaz_Robar{
+        height: 43px;
+        display: flex;
+        justify-content: space-evenly;
+        background: white;
+        margin: 20px;
+        border-left: 2px solid #cacaca
+    }
+    .Blaz_Robar>h3{
+        margin-top: 11px;
+    }
+    .Blaz_Robar>a{
+        margin-top: 13px;
+    }
+    .Jamie_Oliver{
+        height: 43px;
+        display: flex;
+        justify-content: space-evenly;
+        background: white;
+        margin: 0px 20px;
+        border-left: 2px solid #cacaca
+    }
+    .Jamie_Oliver>h3{
+        margin-top: 11px;
+    }
+    .Jamie_Oliver>a{
+        margin-top: 13px;
+    }
+    .Bill_Muarry{
+        height: 43px;
+        display: flex;
+        justify-content: space-evenly;
+        background: white;
+        margin: 20px;
+        border-left: 2px solid #cacaca
+    }
+    .Bill_Muarry>h3{
+        margin-top: 11px;
+    }
+    .Bill_Muarry>a{
+        margin-top: 13px;
+    }
+    .John_Smith{
+        height: 43px;
+        display: flex;
+        justify-content: space-evenly;
+        background: white;
+        margin: 0px 20px;
+        border-left: 2px solid #cacaca
+    }
+    .John_Smith>h3{
+        margin-top: 11px;
+    }
+    .John_Smith>a{
+        margin-top: 13px;
+    }
+
+    .Footer{
+        width: 942px;
+        height: 138px;
+        padding: 0px 297px;
+        background:#373737;
+        display: flex;
+    }
+    .link{
+        display: flex;
+        height: 62px;
+        position: absolute;
+        width: 923px;
+        margin-top: 20px;
+    }
+    .link>a{
+        text-decoration: none;
+        color: white;
+        padding-left: 23px;
+        font-size: 12pt;
+    }
+    .tx4{
+        float: left;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    
